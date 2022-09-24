@@ -1,7 +1,7 @@
-import "./App.css";
+import './App.css';
 
 function App() {
-  return <div>INICO</div>;
+    return <div>INICO</div>;
 }
 
 export default App;

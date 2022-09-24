@@ -1,3 +1,5 @@
+<img width="200" alt="Screen Shot 2022-09-24 at 5 04 31 PM" src="https://user-images.githubusercontent.com/51935560/192118730-8a033692-0959-407e-9fd4-212e106e4294.png">
+
 # Centeravid
 
 CETAD amor y vida es una institución privada para tratamiento a personas con consumo de alcohol y otras drogas , con certificado de Licenciamiento otorgado por la Autoridad Nacional de 100% que avala la calidad de los servicios. Es una clínica privada que brinda tratamientos de internamiento y ambulatorio, dirigido a personas que sufren de alcoholismo y dependencia a drogas (cocaína, pastillas, marihuana, heroína,) o cualquier otro tipo de adicción. Esta clínica de tratamiento le ofrece una solución integral (Cuerpo, Alma, Espíritu, Familia) para la rehabilitación de la enfermedad de la adicción.

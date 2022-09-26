@@ -15,3 +15,14 @@
     0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725),
     0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
 }
+
+.button-hover {
+  background-image: var(--color-brand-gradient);
+  color: var(--color-black-75);
+}
+
+.button-active {
+  background-image: none;
+  background-color: var(--color-secondary);
+  color: var(--color-black-50);
+}

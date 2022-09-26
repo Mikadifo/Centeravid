@@ -1,4 +1,4 @@
-import { useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import Button from './../button/Button';
 import './Footer.css';
 
@@ -38,7 +38,9 @@ const Footer = () => {
                         </div>
                         {pathname !== '/contacto' && (
                             <div className="foot-button">
-                                <Button text="Contactanos" />
+                                <Link to="/contacto">
+                                    <Button text="Contactanos" />
+                                </Link>
                             </div>
                         )}
                     </div>

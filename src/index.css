@@ -10,6 +10,7 @@ html {
   --color-secondary-gradient: linear-gradient(0.25turn, #3490e5, #506b85);
   --color-black: 39 43 46;
   --color-black-75: rgba(39, 43, 46, 0.75);
+  --color-black-50: rgba(39, 43, 46, 0.5);
   --color-black-25: rgba(39, 43, 46, 0.25);
   --color-black-05: rgba(39, 43, 46, 0.05);
   --color-white: #f0f8ff;

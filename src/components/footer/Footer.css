@@ -24,7 +24,15 @@
 .foot-icons a {
   color: rgb(var(--color-black));
   font-size: 32px;
-  padding: 0 16px;
+  margin: 0 16px;
+}
+
+.foot-icons a:hover {
+  color: var(--color-black-75);
+}
+
+.foot-icons a:active {
+  color: var(--color-black-50);
 }
 
 .foot-button {

@@ -1,0 +1,35 @@
+.foot-info {
+  background-color: var(--color-black-05);
+  padding: 64px 128px;
+}
+
+.foot-info h3 {
+  color: rgb(var(--color-black));
+  font-size: var(--h3-size);
+  font-family: var(--h3-font-bold);
+  line-height: var(--h3-height);
+  margin: 0;
+  padding: 0;
+}
+
+.foot-info h5 {
+  color: rgb(var(--color-black));
+  font-size: var(--h5-size);
+  font-family: var(--h5-font-light);
+  line-height: var(--h5-height);
+  margin: 0;
+  padding: 0;
+}
+
+.foot-icons i {
+  font-size: 32px;
+  padding: 0 16px;
+}
+
+.foot-copy {
+  border-top: 1px solid var(--color-black-25);
+  padding: 20px 0;
+  color: var(--color-black-75);
+  font-family: var(--h6-font-regular);
+  line-height: var(--h6-height);
+}

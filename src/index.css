@@ -11,9 +11,31 @@ html {
   --color-black: 39 43 46;
   --color-black-75: rgba(39, 43, 46, 0.75);
   --color-black-25: rgba(39, 43, 46, 0.25);
-  --color-black-5: rgba(39, 43, 46, 0.05);
+  --color-black-05: rgba(39, 43, 46, 0.05);
   --color-white: #f0f8ff;
+
+  --h6-size: 21px;
+  --h6-height: 26px;
+  --h6-font-regular: Hind-Regular, sans-serif;
+  --h6-font-bold: Hind-Bold, sans-serif;
 }
 
-/*@font-face {*/
-/*}*/
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(./resources/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: Hind-Bold;
+  src: url(./resources/fonts/Hind-Bold.ttf);
+}
+
+@font-face {
+  font-family: Hind-Regular;
+  src: url(./resources/fonts/Hind-Regular.ttf);
+}
+
+@font-face {
+  font-family: Hind-Light;
+  src: url(./resources/fonts/Hind-Light.ttf);
+}

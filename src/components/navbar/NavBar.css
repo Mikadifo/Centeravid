@@ -1,4 +1,38 @@
 .navbar {
-  background-color: #ccc;
-  padding: 0 64px;
+  /*background-color: #ccc;*/
+  padding: 16px 64px;
+  border-bottom: 1px solid var(--color-black-25);
+  /*position: fixed;*/
+  /*top: 0;*/
+  /*z-index: 99;*/
+}
+
+.navbar-brand {
+  width: 64px;
+  height: 64px;
+}
+
+.navbar-brand > img {
+  width: 100%;
+  height: 100%;
+}
+
+.nav-item > a {
+  color: rgb(var(--color-black));
+  font-size: var(--h6-size);
+  font-family: var(--h6-font-regular);
+  line-height: var(--h6-height);
+  padding: 0 16px !important;
+}
+
+.nav-item > a:hover {
+  color: var(--color-black-75);
+}
+
+.nav-item > a:active {
+  color: var(--color-black-25);
+}
+
+.current {
+  font-family: var(--h6-font-bold) !important;
 }

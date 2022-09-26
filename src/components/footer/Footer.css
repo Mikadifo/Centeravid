@@ -21,9 +21,14 @@
   padding: 0;
 }
 
-.foot-icons i {
+.foot-icons a {
+  color: rgb(var(--color-black));
   font-size: 32px;
   padding: 0 16px;
+}
+
+.foot-button {
+  padding-top: 32px;
 }
 
 .foot-copy {

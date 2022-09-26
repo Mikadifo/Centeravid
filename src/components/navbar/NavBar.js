@@ -5,8 +5,6 @@ import './NavBar.css';
 const NavBar = () => {
     const { pathname } = useLocation();
 
-    console.log(pathname);
-
     return (
         <nav className="navbar navbar-expand-lg">
             <div className="container-fluid p-0">

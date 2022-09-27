@@ -11,13 +11,15 @@ const Therapies = () => {
                 subtitle={'Ofrecemos las mejores terapias de rehabilitación'}
             />
             <div className="therapies">
-                {therapies.map((therapy) => (
-                    <TherapyCard
-                        key={therapy.id}
-                        img={therapy.img}
-                        title={therapy.title}
-                        text={therapy.text}
-                    />
+                {therapies.map((therapy, i) => (
+                    <div key={therapy.id}>
+                        <TherapyCard
+                            img={therapy.img}
+                            title={therapy.title}
+                            text={therapy.text}
+                            imgLeft={i % 2 !== 0}
+                        />
+                    </div>
                 ))}
             </div>
         </>

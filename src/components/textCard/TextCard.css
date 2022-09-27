@@ -1,7 +1,8 @@
 .text-card-container {
   background-color: var(--color-white);
-  border-radius: 16px;
   padding: 64px;
+  border-radius: 16px;
+  height: 100%;
 }
 
 .text-card-container h3 {

@@ -6,7 +6,11 @@ const Footer = () => {
     const { pathname } = useLocation();
 
     return (
-        <footer>
+        <footer
+            className={
+                pathname === '/instalacion' ? 'less-margin' : 'footer-margin'
+            }
+        >
             <div className="row foot-info">
                 <div className="col my-auto">
                     <div className="row">

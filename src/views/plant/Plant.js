@@ -1,6 +1,7 @@
 import PlantCard from '../../components/plantCard/PlantCard';
 import TopCard from '../../components/topCard/TopCard';
-import img from './../../resources/imgs/T_espiritual.jpeg'; //TODO: change
+import plants from '../../resources/info/plants';
+import './Plant.css';
 
 const Plant = () => {
     return (
@@ -9,8 +10,17 @@ const Plant = () => {
                 title={'Instalación'}
                 subtitle={'Contamos con zonas multipropositos'}
             />
-            <div className="p-5">
-                <PlantCard img={img} title={'Gimansio'} />
+            <div className="plants row">
+                {plants.map((plant) => (
+                    <div
+                        className="col p-0 justify-content-center d-flex"
+                        key={plant.id}
+                    >
+                        <div>
+                            <PlantCard img={plant.img} title={plant.title} />
+                        </div>
+                    </div>
+                ))}
             </div>
         </>
     );

@@ -1,5 +1,9 @@
-footer {
+.footer-margin {
   margin-top: 256px;
+}
+
+.less-margin {
+  margin-top: 128px;
 }
 
 .foot-info {

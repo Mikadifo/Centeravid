@@ -29,6 +29,11 @@ html {
   --h3-font-light: Hind-Light, sans-serif;
   --h3-font-bold: Hind-Bold, sans-serif;
 
+  --h4-size: 37px;
+  --h4-height: 48px;
+  --h4-font-regular: Hind-Regular, sans-serif;
+  --h4-font-bold: Hind-Bold, sans-serif;
+
   --h5-size: 28px;
   --h5-height: 36px;
   --h5-font-light: Hind-Light, sans-serif;

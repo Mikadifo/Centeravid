@@ -34,8 +34,19 @@
 }
 
 .info-container {
-  margin-top: 256px;
-  background-color: #ccc;
+  margin: 256px 0;
+}
+
+.about-container {
+  margin-bottom: 100px;
+}
+
+.mision-container {
+  margin-right: 50px;
+}
+
+.vision-container {
+  margin-left: 50px;
 }
 
 /*@media (max-width: 768px) {*/

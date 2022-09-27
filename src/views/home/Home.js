@@ -2,7 +2,14 @@ import { Link } from 'react-router-dom';
 import TextCard from '../../components/textCard/TextCard';
 import Button from './../../components/button/Button';
 import clinicImg from './../../resources/imgs/home_img.jpeg';
-import { aboutUsTitle, aboutUs } from './../../constants/homeTexts';
+import {
+    aboutUsTitle,
+    aboutUs,
+    misionTitle,
+    mision,
+    visionTitle,
+    vision,
+} from './../../constants/homeTexts';
 import './Home.css';
 
 const Home = () => {
@@ -27,12 +34,16 @@ const Home = () => {
                 </div>
             </div>
             <div className="info-container">
-                <div>
+                <div className="about-container">
                     <TextCard title={aboutUsTitle} text={aboutUs} />
                 </div>
-                <div className="row">
-                    <div className="col">vision</div>
-                    <div className="col">mision</div>
+                <div className="row g-0">
+                    <div className="col mision-container">
+                        <TextCard title={misionTitle} text={mision} />
+                    </div>
+                    <div className="col vision-container">
+                        <TextCard title={visionTitle} text={vision} />
+                    </div>
                 </div>
             </div>
         </div>

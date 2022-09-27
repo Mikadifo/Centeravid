@@ -1,0 +1,21 @@
+.text-card-container {
+  background-color: var(--color-white);
+  padding: 64px;
+  border-radius: 16px;
+  height: 100%;
+}
+
+.text-card-container h3 {
+  color: rgb(var(--color-black)) !important;
+  font-size: var(--h3-size) !important;
+  font-family: var(--h3-font-bold) !important;
+  line-height: var(--h3-height);
+  margin-bottom: 32px !important;
+}
+
+.text-card-container p {
+  color: var(--color-black-75);
+  font-size: var(--paragraph-size);
+  font-family: var(--paragraph-font);
+  line-height: var(--paragraph-height);
+}

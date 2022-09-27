@@ -1,13 +1,66 @@
 body {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  width: 100vw;
+  --color-secondary: #ffeb38;
+  --color-brand-gradient: linear-gradient(0.25turn, #3490e5, #ffeb38);
+  --color-secondary-gradient: linear-gradient(0.25turn, #3490e5, #506b85);
+  --color-black: 39 43 46;
+  --color-black-75: rgba(39, 43, 46, 0.75);
+  --color-black-50: rgba(39, 43, 46, 0.5);
+  --color-black-25: rgba(39, 43, 46, 0.25);
+  --color-black-05: rgba(39, 43, 46, 0.05);
+  --color-white: #f0f8ff;
+
+  --paragraph-size: 21px;
+  --paragraph-height: 30px;
+  --paragraph-font: Montserrat-Regular, sans-serif;
+
+  --h1-size: 88px;
+  --h1-height: 100px;
+  --h1-font-bold: Hind-Bold, sans-serif;
+
+  --h3-size: 50px;
+  --h3-height: 60px;
+  --h3-font-light: Hind-Light, sans-serif;
+  --h3-font-bold: Hind-Bold, sans-serif;
+
+  --h4-size: 37px;
+  --h4-height: 48px;
+  --h4-font-regular: Hind-Regular, sans-serif;
+  --h4-font-bold: Hind-Bold, sans-serif;
+
+  --h5-size: 28px;
+  --h5-height: 36px;
+  --h5-font-light: Hind-Light, sans-serif;
+  --h5-font-bold: Hind-Bold, sans-serif;
+
+  --h6-size: 21px;
+  --h6-height: 26px;
+  --h6-font-regular: Hind-Regular, sans-serif;
+  --h6-font-bold: Hind-Bold, sans-serif;
+}
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(./resources/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: Hind-Bold;
+  src: url(./resources/fonts/Hind-Bold.ttf);
+}
+
+@font-face {
+  font-family: Hind-Regular;
+  src: url(./resources/fonts/Hind-Regular.ttf);
+}
+
+@font-face {
+  font-family: Hind-Light;
+  src: url(./resources/fonts/Hind-Light.ttf);
 }

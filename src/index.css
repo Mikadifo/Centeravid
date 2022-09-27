@@ -5,6 +5,7 @@ body {
 }
 
 html {
+  width: 100vw;
   --color-secondary: #ffeb38;
   --color-brand-gradient: linear-gradient(0.25turn, #3490e5, #ffeb38);
   --color-secondary-gradient: linear-gradient(0.25turn, #3490e5, #506b85);

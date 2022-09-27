@@ -1,9 +1,7 @@
 .navbar {
+  background-color: #ffffff;
   padding: 16px 64px;
   border-bottom: 1px solid var(--color-black-25);
-  /*position: fixed;*/
-  /*top: 0;*/
-  /*z-index: 99;*/
 }
 
 .navbar-brand {

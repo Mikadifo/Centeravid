@@ -15,6 +15,10 @@ html {
   --color-black-05: rgba(39, 43, 46, 0.05);
   --color-white: #f0f8ff;
 
+  --paragraph-size: 21px;
+  --paragraph-height: 30px;
+  --paragraph-font: Montserrat-Regular, sans-serif;
+
   --h1-size: 88px;
   --h1-height: 100px;
   --h1-font-bold: Hind-Bold, sans-serif;

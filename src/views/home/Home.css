@@ -33,6 +33,11 @@
   margin-bottom: 64px;
 }
 
+.info-container {
+  margin-top: 256px;
+  background-color: #ccc;
+}
+
 /*@media (max-width: 768px) {*/
 /*.greeting-title {*/
 /*margin-bottom: 16px;*/

@@ -3,6 +3,10 @@
   padding: 0 128px;
 }
 
+.call-action-container {
+  margin-bottom: 256px;
+}
+
 .clinic-img {
   border-radius: 16px;
   width: auto;
@@ -31,10 +35,6 @@
   text-align: center;
   color: rgb(var(--color-black));
   margin-bottom: 64px;
-}
-
-.info-container {
-  margin: 256px 0;
 }
 
 .about-container {

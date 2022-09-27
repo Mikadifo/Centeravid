@@ -15,7 +15,7 @@ import './Home.css';
 const Home = () => {
     return (
         <div className="home-container">
-            <div id="home" className="row">
+            <div className="row call-action-container">
                 <div className="col-sm-6 ps-0 pe-0 text-center">
                     <div>
                         <h1>CENTERAVID</h1>

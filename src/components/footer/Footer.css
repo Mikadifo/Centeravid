@@ -1,3 +1,7 @@
+footer {
+  margin-top: 256px;
+}
+
 .foot-info {
   background-color: var(--color-black-05);
   padding: 64px 128px;

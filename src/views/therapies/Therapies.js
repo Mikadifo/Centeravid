@@ -1,3 +1,4 @@
+import TherapyCard from '../../components/therapyCard/TherapyCard';
 import TopCard from '../../components/topCard/TopCard';
 
 const Therapies = () => {
@@ -7,6 +8,7 @@ const Therapies = () => {
                 title={'Terapias'}
                 subtitle={'Ofrecemos las mejores terapias de rehabilitación'}
             />
+            <TherapyCard />
         </>
     );
 };

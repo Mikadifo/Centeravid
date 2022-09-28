@@ -1,0 +1,26 @@
+.medical-card-container {
+  background-color: var(--color-white);
+  padding: 32px;
+  border-radius: 16px;
+}
+
+.medical-card-container img {
+  width: 200px;
+  height: 200px;
+  margin-right: 42px;
+}
+
+.medical-card-container h5 {
+  color: rgb(var(--color-black));
+  font-size: var(--h5-size);
+  font-family: var(--h5-font-bold);
+  line-height: var(--h5-height);
+}
+
+.medical-card-container p {
+  color: var(--color-black-75);
+  font-size: var(--paragraph-size);
+  font-family: var(--paragraph-font);
+  line-height: var(--paragraph-height);
+  margin: 0;
+}

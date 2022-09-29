@@ -6,6 +6,7 @@
 
 .medical-card-container img {
   margin-right: 42px;
+  object-fit: cover;
   border-radius: 100%;
   width: 200px;
   height: 200px;

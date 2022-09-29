@@ -10,10 +10,19 @@ const CallCard = () => {
                 {numbers.map((n) => (
                     <div className="col" key={n.id}>
                         <div className="d-inline-block">
-                            <CallButton number={n.number} />
+                            <CallButton text={n.number} />
                         </div>
                     </div>
                 ))}
+            </div>
+            <div className="email-card-container">
+                <h3>¿Prefieres usar correo?</h3>
+                <div className="d-inline-block">
+                    <CallButton
+                        text={'centeravid@hotmail.com'}
+                        isEmail={true}
+                    />
+                </div>
             </div>
         </div>
     );

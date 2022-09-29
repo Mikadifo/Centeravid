@@ -1,4 +1,8 @@
 .medical-body {
-  margin-left: 100px;
-  margin-right: 200px;
+  padding: 0 128px;
+}
+
+.medical-body > .col > div {
+  margin-bottom: 128px;
+  width: 528px;
 }

@@ -1,0 +1,17 @@
+.call-card-container {
+  background-color: var(--color-white);
+  padding: 64px;
+  border-radius: 16px;
+}
+
+.call-card-container h3 {
+  color: rgb(var(--color-black));
+  font-size: var(--h3-size);
+  font-family: var(--h3-font-bold);
+  line-height: var(--h3-height);
+  margin-bottom: 64px;
+}
+
+.n1 {
+  width: auto;
+}

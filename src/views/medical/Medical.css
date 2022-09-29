@@ -1,0 +1,8 @@
+.medical-body {
+  padding: 0 128px;
+}
+
+.medical-body > .col > div {
+  margin-bottom: 128px;
+  width: 528px;
+}

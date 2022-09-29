@@ -8,7 +8,9 @@ const Footer = () => {
     return (
         <footer
             className={
-                pathname === '/instalacion' ? 'less-margin' : 'footer-margin'
+                pathname === '/instalacion' || pathname === '/cuerpo_medico'
+                    ? 'less-margin'
+                    : 'footer-margin'
             }
         >
             <div className="row foot-info">

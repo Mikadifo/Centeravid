@@ -6,9 +6,16 @@ const NavBar = () => {
     const { pathname } = useLocation();
 
     return (
-        <nav className="navbar navbar-expand-lg sticky-top">
+        <nav
+            className="navbar navbar-expand-lg sticky-top"
+            data-testid="navbar"
+        >
             <div className="container-fluid p-0">
-                <Link className="navbar-brand p-0 m-0" to="/">
+                <Link
+                    className="navbar-brand p-0 m-0"
+                    to="/"
+                    data-testid="nav-logo"
+                >
                     <img src={logo} alt="Logo" />
                 </Link>
                 <button

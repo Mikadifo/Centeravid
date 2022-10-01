@@ -1,0 +1,40 @@
+import { render, screen, cleanup } from '@testing-library/react';
+import { MemoryRouter } from 'react-router-dom';
+import NavBar from './NavBar';
+
+beforeEach(() => {
+    render(
+        <MemoryRouter>
+            <NavBar />
+        </MemoryRouter>,
+    );
+});
+
+afterEach(() => {
+    cleanup();
+});
+
+test('navbar render logo and links', () => {
+    const navbar = screen.getByTestId('navbar');
+    const logo = screen.getByTestId('nav-logo');
+    expect(navbar).toBeInTheDocument();
+    expect(logo).toBeInTheDocument();
+    expect(navbar).toHaveTextContent('Inicio');
+    expect(navbar).toHaveTextContent('Terapias');
+    expect(navbar).toHaveTextContent('Instalación');
+    expect(navbar).toHaveTextContent('Cuerpo Médico');
+    expect(navbar).toHaveTextContent('Contacto');
+    expect(logo).toHaveAttribute('href', '/');
+    expect(logo.firstChild).toHaveAttribute('src', 'logo.png');
+    expect(screen.getByText('Inicio')).toHaveAttribute('href', '/');
+    expect(screen.getByText('Terapias')).toHaveAttribute('href', '/terapias');
+    expect(screen.getByText('Instalación')).toHaveAttribute(
+        'href',
+        '/instalacion',
+    );
+    expect(screen.getByText('Cuerpo Médico')).toHaveAttribute(
+        'href',
+        '/cuerpo_medico',
+    );
+    expect(screen.getByText('Contacto')).toHaveAttribute('href', '/contacto');
+});

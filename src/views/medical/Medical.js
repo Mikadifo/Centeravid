@@ -5,7 +5,7 @@ import './Medical.css';
 
 const Medical = () => {
     return (
-        <>
+        <div data-testid="medical">
             <TopCard
                 title={'Cuerpo Médico'}
                 subtitle={'Poseemos los mejores especialistas'}
@@ -17,16 +17,12 @@ const Medical = () => {
                         key={body.id}
                     >
                         <div>
-                            <MedicalCard
-                                img={body.img}
-                                name={body.name}
-                                role={body.role}
-                            />
+                            <MedicalCard body={body} />
                         </div>
                     </div>
                 ))}
             </div>
-        </>
+        </div>
     );
 };
 

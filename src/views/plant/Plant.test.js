@@ -26,6 +26,7 @@ test('plant render texts and imgs', () => {
         const plantCard = screen.getByTestId(plant.id);
         expect(plantCard).toBeInTheDocument();
         expect(plantCard.firstChild).toHaveTextContent(plant.title);
+        expect(plantCard.lastChild).toBeInTheDocument();
         expect(plantCard.lastChild).toHaveAttribute('src', plant.img);
     });
 });

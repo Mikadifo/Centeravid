@@ -5,7 +5,7 @@ import './Contact.css';
 
 const Contact = () => {
     return (
-        <>
+        <div data-testid="contact">
             <TopCard
                 title={'Contactanos'}
                 subtitle={'Puedes contactarnos de varias formas'}
@@ -18,7 +18,7 @@ const Contact = () => {
                     <CallCard />
                 </div>
             </div>
-        </>
+        </div>
     );
 };
 

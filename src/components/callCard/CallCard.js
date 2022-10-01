@@ -4,13 +4,16 @@ import './CallCard.css';
 
 const CallCard = () => {
     return (
-        <div className="call-card-container text-center">
+        <div
+            className="call-card-container text-center"
+            data-testid="call-card"
+        >
             <h3>Llámanos o Escríbenos</h3>
             <div className="row g-0">
                 {numbers.map((n) => (
                     <div className="col" key={n.id}>
                         <div className="d-inline-block">
-                            <CallButton text={n.number} />
+                            <CallButton text={n.number} testid={n.id} />
                         </div>
                     </div>
                 ))}
@@ -19,8 +22,9 @@ const CallCard = () => {
                 <h3>¿Prefieres usar correo?</h3>
                 <div className="d-inline-block">
                     <CallButton
-                        text={'centeravid@hotmail.com'}
+                        text="centeravid@hotmail.com"
                         isEmail={true}
+                        testid="E-clinic"
                     />
                 </div>
             </div>

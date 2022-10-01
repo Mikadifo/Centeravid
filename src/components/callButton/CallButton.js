@@ -19,7 +19,7 @@ const CallButton = ({ text, isEmail }) => {
                 </span>
                 <a href={`${isEmail ? 'mailto:' : 'tel:'}${text}`}>
                     {isEmail ? (
-                        <i class="bi bi-envelope" />
+                        <i className="bi bi-envelope" />
                     ) : (
                         <i className="bi bi-telephone" />
                     )}

@@ -12,6 +12,7 @@ const Footer = () => {
                     ? 'less-margin'
                     : 'footer-margin'
             }
+            data-testid="footer"
         >
             <div className="row foot-info">
                 <div className="col my-auto">
@@ -19,7 +20,7 @@ const Footer = () => {
                         <h3>CENTERAVID</h3>
                     </div>
                     <div className="row">
-                        <h5>Estamos aqui para ayudarte.</h5>
+                        <h5>Estamos aquí para ayudarte.</h5>
                     </div>
                 </div>
                 <div className="col justify-content-end d-flex p-0">
@@ -30,13 +31,15 @@ const Footer = () => {
                                     href="https://www.facebook.com/dipidiana/?ref=page_internal"
                                     target="_blank"
                                     rel="noreferrer"
+                                    data-testid="facebook-link"
                                 >
                                     <i className="bi bi-facebook" />
                                 </a>
                                 <a
-                                    href="https://www.instagram.com/centeravid/?hl=en"
+                                    href="https://www.instagram.com/centeravid/?hl=es"
                                     target="_blank"
                                     rel="noreferrer"
+                                    data-testid="instagram-link"
                                 >
                                     <i className="bi bi-instagram" />
                                 </a>
@@ -44,7 +47,10 @@ const Footer = () => {
                         </div>
                         {pathname !== '/contacto' && (
                             <div className="foot-button">
-                                <Link to="/contacto">
+                                <Link
+                                    to="/contacto"
+                                    data-testid="contact-button"
+                                >
                                     <Button text="Contactanos" />
                                 </Link>
                             </div>

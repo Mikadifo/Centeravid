@@ -16,7 +16,7 @@ const Home = () => {
     return (
         <div className="home-container" data-testid="home">
             <div className="row call-action-container">
-                <div className="col-sm-6 ps-0 pe-0 text-center">
+                <div className="col-sm-6 ps-0 pe-0 text-center my-auto">
                     <div data-testid="call-action">
                         <h1>CENTERAVID</h1>
                         <h3>Nunca es tarde para comenzar de nuevo</h3>
@@ -25,7 +25,7 @@ const Home = () => {
                         </Link>
                     </div>
                 </div>
-                <div className="col-sm-6 order-lg-last order-first mb-lg-0 mb-5 align-items-center justify-content-center d-flex">
+                <div className="col-sm-6 order-lg-last order-first mb-lg-0 mb-5 align-items-center justify-content-center d-flex p-0">
                     <img
                         src={clinicImg}
                         alt="MIKADIFO"

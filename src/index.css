@@ -23,6 +23,10 @@ html {
   --h1-size: 88px;
   --h1-height: 100px;
   --h1-font-bold: Hind-Bold, sans-serif;
+  --h1-tablet-size: 76px;
+  --h1-tablet-height: 92px;
+  --h1-phone-size: 44px;
+  --h1-phone-height: 54px;
 
   --h3-size: 50px;
   --h3-height: 60px;

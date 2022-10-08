@@ -7,15 +7,39 @@
 
 .text-card-container h3 {
   color: rgb(var(--color-black)) !important;
-  font-size: var(--h3-size) !important;
   font-family: var(--h3-font-bold) !important;
-  line-height: var(--h3-height);
+  font-size: var(--h3-tablet-size) !important;
+  line-height: var(--h3-tablet-height);
   margin-bottom: 32px !important;
 }
 
 .text-card-container p {
   color: var(--color-black-75);
-  font-size: var(--paragraph-size);
   font-family: var(--paragraph-font);
-  line-height: var(--paragraph-height);
+  font-size: var(--paragraph-phone-size);
+  line-height: var(--paragraph-phone-height);
+}
+
+@media (max-width: 576px) {
+  .text-card-container h3 {
+    font-size: var(--h3-phone-size) !important;
+    line-height: var(--h3-phone-height);
+    margin-bottom: 24px !important;
+  }
+
+  .text-card-container {
+    padding: 32px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .text-card-container h3 {
+    font-size: var(--h3-size) !important;
+    line-height: var(--h3-height);
+    margin-bottom: 32px !important;
+  }
+  .text-card-container p {
+    font-size: var(--paragraph-size);
+    line-height: var(--paragraph-height);
+  }
 }

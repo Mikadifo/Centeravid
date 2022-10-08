@@ -19,6 +19,8 @@ html {
   --paragraph-size: 21px;
   --paragraph-height: 30px;
   --paragraph-font: Montserrat-Regular, sans-serif;
+  --paragraph-phone-size: 18px;
+  --paragraph-phone-height: 28px;
 
   --h1-size: 88px;
   --h1-height: 100px;

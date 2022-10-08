@@ -13,25 +13,25 @@
 
 .foot-info h3 {
   color: rgb(var(--color-black));
-  font-size: var(--h3-size);
+  font-size: var(--h3-tablet-size);
   font-family: var(--h3-font-bold);
-  line-height: var(--h3-height);
+  line-height: var(--h3-tablet-height);
   margin: 0;
   padding: 0;
 }
 
 .foot-info h5 {
   color: rgb(var(--color-black));
-  font-size: var(--h5-size);
+  font-size: var(--h5-tablet-size);
   font-family: var(--h5-font-light);
-  line-height: var(--h5-height);
+  line-height: var(--h5-tablet-height);
   margin: 0;
   padding: 0;
 }
 
 .foot-icons a {
   color: rgb(var(--color-black));
-  font-size: 32px;
+  font-size: 28px;
   margin: 0 16px;
 }
 
@@ -44,7 +44,7 @@
 }
 
 .foot-button {
-  padding-top: 32px;
+  padding-top: 16px;
 }
 
 .foot-copy {
@@ -56,10 +56,42 @@
   line-height: var(--h6-height);
 }
 
+@media (max-width: 1099px) {
+  .foot-info h3 {
+    font-size: var(--h3-phone-size);
+    line-height: var(--h3-phone-height);
+  }
+
+  .foot-info h5 {
+    font-size: var(--h5-phone-size);
+    line-height: var(--h5-phone-height);
+  }
+
+  .foot-icons a {
+    font-size: 22px;
+  }
+}
+
 @media (max-width: 1439px) {
   .foot-copy {
     padding: 16px 0;
     line-height: var(--h6-phone-height);
     font-size: var(--h6-phone-size);
+  }
+}
+
+@media (min-width: 1440px) {
+  .foot-info h3 {
+    font-size: var(--h3-size);
+    line-height: var(--h3-height);
+  }
+
+  .foot-info h5 {
+    font-size: var(--h5-size);
+    line-height: var(--h5-height);
+  }
+
+  .foot-icons a {
+    font-size: 32px;
   }
 }

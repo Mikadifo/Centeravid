@@ -1,9 +1,11 @@
+import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import logo from './../../logo.png';
 import './NavBar.css';
 
 const NavBar = () => {
     const { pathname } = useLocation();
+    const [showMenu, setShowMenu] = useState(false);
 
     return (
         <nav
@@ -19,15 +21,20 @@ const NavBar = () => {
                     <img src={logo} alt="Logo" />
                 </Link>
                 <button
-                    className="navbar-toggler"
+                    className="navbar-toggler nav-menu p-0"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#navbarNav"
                     aria-controls="navbarNav"
                     aria-expanded="false"
                     aria-label="Toggle navigation"
+                    onClick={() => setShowMenu(!showMenu)}
                 >
-                    <span className="navbar-toggler-icon" />
+                    {showMenu ? (
+                        <i class="bi bi-list-nested" />
+                    ) : (
+                        <i className="bi bi-list" />
+                    )}
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">

@@ -43,6 +43,8 @@ html {
   --h6-height: 26px;
   --h6-font-regular: Hind-Regular, sans-serif;
   --h6-font-bold: Hind-Bold, sans-serif;
+  --h6-phone-size: 18px;
+  --h6-phone-height: 22px;
 }
 
 @font-face {

@@ -51,7 +51,7 @@
   margin-left: 50px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1099px) {
   .call-action-container {
     margin: 0 0 100px 0;
   }
@@ -60,6 +60,16 @@
     margin-bottom: 64px;
   }
 
+  .mision-container {
+    margin-right: 32px;
+  }
+
+  .vision-container {
+    margin-left: 32px;
+  }
+}
+
+@media (max-width: 991px) {
   .mision-container {
     margin: 0;
     margin-bottom: 64px;

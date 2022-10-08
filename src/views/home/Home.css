@@ -53,6 +53,17 @@
   margin-left: 50px;
 }
 
+@media (max-width: 991px) {
+  .mision-container {
+    margin: 0;
+    margin-bottom: 100px;
+  }
+
+  .vision-container {
+    margin: 0;
+  }
+}
+
 @media (max-width: 1099px) {
   .home-container {
     margin-top: 64px;

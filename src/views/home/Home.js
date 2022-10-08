@@ -39,10 +39,10 @@ const Home = () => {
                     <TextCard title={aboutUsTitle} text={aboutUs} />
                 </div>
                 <div className="row g-0">
-                    <div className="col mision-container">
+                    <div className="col-lg mision-container">
                         <TextCard title={misionTitle} text={mision} />
                     </div>
-                    <div className="col vision-container">
+                    <div className="col-lg vision-container">
                         <TextCard title={visionTitle} text={vision} />
                     </div>
                 </div>

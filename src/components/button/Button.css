@@ -1,9 +1,9 @@
 .main-button {
   background-image: var(--color-secondary-gradient);
   color: var(--color-white);
-  font-size: var(--h5-size);
   font-family: var(--h5-font-bold);
-  line-height: var(--h5-height);
+  font-size: var(--h5-tablet-size);
+  line-height: var(--h5-phone-height);
   padding: 16px 32px;
   width: auto;
   border: none;
@@ -25,4 +25,20 @@
   background-image: none;
   background-color: var(--color-secondary);
   color: var(--color-black-50);
+}
+
+@media (max-width: 1099px) {
+  .main-button {
+    font-size: var(--h5-phone-size);
+    line-height: var(--h5-phone-height);
+    padding: 14px 28px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .main-button {
+    font-size: var(--h5-size);
+    line-height: var(--h5-height);
+    padding: 20px 40px;
+  }
 }

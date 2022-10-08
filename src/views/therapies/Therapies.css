@@ -3,17 +3,24 @@
 }
 
 .therapies div {
-  margin: 0 0 128px 0;
+  margin: 0 0 100px 0;
 }
 
 @media (max-width: 1099px) {
   .therapies {
     margin: 0 32px;
   }
+  .therapies div {
+    margin: 0 0 64px 0;
+  }
 }
 
-@media (min-width: 1440) {
+@media (min-width: 1440px) {
   .therapies {
     margin: 0 128px;
+  }
+
+  .therapies div {
+    margin-bottom: 128px;
   }
 }

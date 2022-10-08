@@ -14,16 +14,16 @@ const Footer = () => {
             }
             data-testid="footer"
         >
-            <div className="row foot-info">
+            <div className="row foot-info text-center text-sm-start">
                 <div className="col my-auto">
                     <div className="row">
                         <h3>CENTERAVID</h3>
                     </div>
-                    <div className="row">
+                    <div className="row pb-4 pb-sm-0">
                         <h5>Estamos aquí para ayudarte.</h5>
                     </div>
                 </div>
-                <div className="col justify-content-end d-flex p-0">
+                <div className="col justify-content-center justify-content-sm-end d-flex p-0">
                     <div className="my-auto">
                         <div className="foot-icons">
                             <div className="text-center">

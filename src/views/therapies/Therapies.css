@@ -1,7 +1,19 @@
 .therapies {
-  margin: 0 128px;
+  margin: 0 100px;
 }
 
 .therapies div {
   margin: 0 0 128px 0;
+}
+
+@media (max-width: 1099px) {
+  .therapies {
+    margin: 0 32px;
+  }
+}
+
+@media (min-width: 1440) {
+  .therapies {
+    margin: 0 128px;
+  }
 }

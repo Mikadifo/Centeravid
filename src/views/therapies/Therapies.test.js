@@ -30,7 +30,7 @@ test('therapies render texts and imgs', () => {
         const regex = RegExp(
             i % 2 !== 0
                 ? '^(?!.*order-last text-end)'
-                : '.*order-last text-end.*',
+                : '.*order-md-last text-md-end.*',
         );
         expect(current.firstChild).toHaveAttribute(
             'class',

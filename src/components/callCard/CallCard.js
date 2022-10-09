@@ -9,9 +9,9 @@ const CallCard = () => {
             data-testid="call-card"
         >
             <h3>Llámanos o Escríbenos</h3>
-            <div className="row g-0">
+            <div className="row g-4 g-xl-0">
                 {numbers.map((n) => (
-                    <div className="col" key={n.id}>
+                    <div className="col-12 col-xl-6" key={n.id}>
                         <div className="d-inline-block">
                             <CallButton text={n.number} testid={n.id} />
                         </div>

@@ -6,9 +6,9 @@
 
 .call-button-container h4 {
   color: rgb(var(--color-black));
-  font-size: var(--h4-size);
   font-family: var(--h4-font-regular);
-  line-height: var(--h4-height);
+  font-size: var(--h4-tablet-size);
+  line-height: var(--h4-tablet-height);
   margin: 0;
 }
 
@@ -33,4 +33,37 @@
 .call-button-container a:active,
 .call-button-container span:active {
   color: var(--color-black-50);
+}
+
+@media (max-width: 767px) {
+  .call-button-container div {
+    margin-left: 16px;
+  }
+  .call-button-container {
+    padding: 8px 16px;
+  }
+
+  .call-button-container a,
+  .call-button-container span {
+    margin-left: 8px;
+  }
+}
+
+@media (max-width: 1099px) {
+  .call-button-container h4 {
+    font-size: var(--h4-phone-size);
+    line-height: var(--h4-phone-height);
+  }
+
+  .call-button-container a,
+  .call-button-container span {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .call-button-container h4 {
+    font-size: var(--h4-size);
+    line-height: var(--h4-height);
+  }
 }

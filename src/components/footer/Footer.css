@@ -3,7 +3,7 @@
 }
 
 .less-margin {
-  margin-top: 128px;
+  margin-top: 104px;
 }
 
 .foot-info {
@@ -63,6 +63,10 @@
 }
 
 @media (max-width: 1099px) {
+  .less-margin {
+    margin-top: 36px;
+  }
+
   .footer-margin {
     margin-top: 100px;
   }
@@ -91,6 +95,10 @@
 }
 
 @media (min-width: 1440px) {
+  .less-margin {
+    margin-top: 128px;
+  }
+
   .footer-margin {
     margin-top: 256px;
   }

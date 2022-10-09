@@ -16,9 +16,7 @@ const Plant = () => {
                         className="col p-0 justify-content-center d-flex"
                         key={plant.id}
                     >
-                        <div>
-                            <PlantCard plant={plant} />
-                        </div>
+                        <PlantCard plant={plant} />
                     </div>
                 ))}
             </div>

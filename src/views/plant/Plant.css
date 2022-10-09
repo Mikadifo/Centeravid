@@ -1,9 +1,39 @@
 .plants {
-  padding: 0 128px;
+  padding: 0 100px;
 }
 
 .plants .col div {
-  margin-bottom: 128px;
-  width: 480px;
-  /*height: 400px;*/
+  margin-bottom: 64px;
+  width: 460px;
+}
+
+@media (max-width: 991px) {
+  .plants .col div {
+    width: 100vw;
+  }
+}
+
+@media (min-width: 992px) {
+  .plants .col div {
+    margin-bottom: 64px;
+    width: 450px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .plants {
+    padding: 0 32px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .plants {
+    padding: 0 128px;
+  }
+
+  .plants .col div {
+    margin-top: 0;
+    margin-bottom: 128px;
+    width: 480px;
+  }
 }

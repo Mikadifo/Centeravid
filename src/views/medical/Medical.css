@@ -1,8 +1,36 @@
 .medical-body {
-  padding: 0 128px;
+  padding: 0 64px;
 }
 
-.medical-body > .col > div {
-  margin-bottom: 128px;
-  width: 528px;
+@media (max-width: 767px) {
+  .medical-body {
+    padding: 0 32px;
+  }
+
+  .medical-body > .col > div {
+    margin-bottom: 128px;
+    width: 100vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .medical-body {
+    padding: 0 32px;
+  }
+
+  .medical-body > .col > div {
+    margin-bottom: 128px;
+    width: 40vw;
+  }
+}
+
+@media (min-width: 1440px) {
+  .medical-body {
+    padding: 0 128px;
+  }
+
+  .medical-body > .col > div {
+    margin-bottom: 128px;
+    width: 528px;
+  }
 }

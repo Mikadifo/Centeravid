@@ -2,7 +2,10 @@ import './MedicalCard.css';
 
 const MedicalCard = ({ body }) => {
     return (
-        <div className="medical-card-container d-flex" data-testid={body.id}>
+        <div
+            className="medical-card-container d-xl-flex text-xl-start text-center"
+            data-testid={body.id}
+        >
             <img src={body.img} alt={body.role} />
             <div className="my-auto">
                 <h5>{body.name}</h5>

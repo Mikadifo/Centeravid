@@ -7,20 +7,42 @@
 .plant-card-container h4 {
   margin-bottom: 16px;
   color: rgb(var(--color-black));
-  font-size: var(--h4-size);
+  font-size: var(--h4-tablet-size);
+  line-height: var(--h4-tablet-height);
   font-family: var(--h4-font-bold);
-  line-height: var(--h4-height);
 }
 
 .plant-card-container img {
   object-fit: cover;
   border-radius: 16px;
   width: 100%;
-  height: 272px;
+  height: 262px;
   filter: drop-shadow(0px 4px 80px rgba(0, 0, 0, 0.07))
     drop-shadow(0px 1.6711px 33.4221px rgba(0, 0, 0, 0.0503198))
     drop-shadow(0px 0.893452px 17.869px rgba(0, 0, 0, 0.0417275))
     drop-shadow(0px 0.500862px 10.0172px rgba(0, 0, 0, 0.035))
     drop-shadow(0px 0.266004px 5.32008px rgba(0, 0, 0, 0.0282725))
     drop-shadow(0px 0.11069px 2.21381px rgba(0, 0, 0, 0.0196802));
+}
+
+@media (max-width: 1099px) {
+  .plant-card-container h4 {
+    font-size: var(--h4-phone-size);
+    line-height: var(--h4-phone-height);
+  }
+
+  .plant-card-container img {
+    height: 252px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .plant-card-container h4 {
+    font-size: var(--h4-size);
+    line-height: var(--h4-height);
+  }
+
+  .plant-card-container img {
+    height: 272px;
+  }
 }

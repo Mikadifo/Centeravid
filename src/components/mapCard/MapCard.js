@@ -2,7 +2,10 @@ import './MapCard.css';
 
 const MapCard = () => {
     return (
-        <div className="map-card-container d-flex" data-testid="map-card">
+        <div
+            className="map-card-container d-md-flex text-center text-md-start"
+            data-testid="map-card"
+        >
             <iframe
                 title="centeravid-map"
                 className="map-frame"

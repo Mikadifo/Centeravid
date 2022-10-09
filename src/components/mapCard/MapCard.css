@@ -5,9 +5,9 @@
 }
 
 .map-frame {
-  margin-right: 64px;
-  width: 380px;
-  height: 380px;
+  margin-right: 32px;
+  width: 320px;
+  height: 320px;
   border-radius: 16px;
   filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.07))
     drop-shadow(0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198))
@@ -19,9 +19,9 @@
 
 .map-card-container h4 {
   color: rgb(var(--color-black));
-  font-size: var(--h4-size);
   font-family: var(--h4-font-bold);
-  line-height: var(--h4-height);
+  font-size: var(--h4-tablet-size);
+  line-height: var(--h4-tablet-height);
 }
 
 .map-card-container a {
@@ -38,7 +38,56 @@
 }
 
 .map-card-container h5 {
-  font-size: var(--h5-size);
   font-family: var(--h5-font-light);
-  line-height: var(--h5-height);
+  font-size: var(--h5-tablet-size);
+  line-height: var(--h5-tablet-height);
+}
+
+@media (max-width: 767px) {
+  .map-frame {
+    margin-right: 0px !important;
+    margin-bottom: 32px;
+    width: 100% !important;
+    height: 100%;
+  }
+
+  .map-card-container {
+    padding: 32px;
+  }
+}
+
+@media (max-width: 1099px) {
+  .map-frame {
+    margin-right: 16px;
+    width: 280px;
+    height: 280px;
+  }
+
+  .map-card-container h4 {
+    font-size: var(--h4-phone-size);
+    line-height: var(--h4-phone-height);
+  }
+
+  .map-card-container h5 {
+    font-size: var(--h5-phone-size);
+    line-height: var(--h5-phone-height);
+  }
+}
+
+@media (min-width: 1440px) {
+  .map-frame {
+    margin-right: 64px;
+    width: 380px;
+    height: 380px;
+  }
+
+  .map-card-container h4 {
+    font-size: var(--h4-size);
+    line-height: var(--h4-height);
+  }
+
+  .map-card-container h5 {
+    font-size: var(--h5-size);
+    line-height: var(--h5-height);
+  }
 }

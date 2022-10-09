@@ -1,8 +1,20 @@
 .contact-container {
-  margin: 0 128px;
+  margin: 0 100px;
 }
 
 .map-container,
 .call-container {
   margin-bottom: 128px;
+}
+
+@media (max-width: 1099px) {
+  .contact-container {
+    margin: 0 32px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .contact-container {
+    margin: 0 128px;
+  }
 }

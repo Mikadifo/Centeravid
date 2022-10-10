@@ -2,7 +2,10 @@ import './MapCard.css';
 
 const MapCard = () => {
     return (
-        <div className="map-card-container d-flex">
+        <div
+            className="map-card-container d-md-flex text-center text-md-start"
+            data-testid="map-card"
+        >
             <iframe
                 title="centeravid-map"
                 className="map-frame"
@@ -15,8 +18,9 @@ const MapCard = () => {
                         href="https://www.google.com/maps?ll=-2.922375,-79.038992&z=17&t=m&hl=en-US&gl=US&mapclient=embed&cid=13281604193666422235"
                         target="_blank"
                         rel="noreferrer"
+                        data-testid="location"
                     >
-                        010108 Cuenca, Ecuador
+                        Dos de Agosto y P. Vicente Maldonado, Cuenca, Ecuador
                     </a>
                 </h5>
             </div>

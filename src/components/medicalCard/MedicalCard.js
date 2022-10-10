@@ -1,12 +1,15 @@
 import './MedicalCard.css';
 
-const MedicalCard = ({ name, role, img }) => {
+const MedicalCard = ({ body }) => {
     return (
-        <div className="medical-card-container d-flex">
-            <img src={img} alt={role} />
+        <div
+            className="medical-card-container d-xl-flex text-xl-start text-center"
+            data-testid={body.id}
+        >
+            <img src={body.img} alt={body.role} />
             <div className="my-auto">
-                <h5>{name}</h5>
-                <p>{role}</p>
+                <h5>{body.name}</h5>
+                <p>{body.role}</p>
             </div>
         </div>
     );

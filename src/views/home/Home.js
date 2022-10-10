@@ -14,34 +14,35 @@ import './Home.css';
 
 const Home = () => {
     return (
-        <div className="home-container">
+        <div className="home-container" data-testid="home">
             <div className="row call-action-container">
-                <div className="col-sm-6 ps-0 pe-0 text-center">
-                    <div>
+                <div className="col-xl-6 col-12 ps-0 pe-0 text-center my-auto">
+                    <div data-testid="call-action">
                         <h1>CENTERAVID</h1>
                         <h3>Nunca es tarde para comenzar de nuevo</h3>
-                        <Link to="/contacto">
+                        <Link to="/contacto" data-testid="call-action-button">
                             <Button text="Contactanos" />
                         </Link>
                     </div>
                 </div>
-                <div className="col-sm-6 order-lg-last order-first mb-lg-0 mb-5 align-items-center justify-content-center d-flex">
+                <div className="col-xl-6 col-12 order-xl-last order-first mb-xl-0 mb-5 align-items-center justify-content-center d-flex p-0">
                     <img
                         src={clinicImg}
                         alt="MIKADIFO"
                         className="clinic-img"
+                        data-testid="home-img"
                     />
                 </div>
             </div>
-            <div className="info-container">
+            <div className="info-container" data-testid="info-container">
                 <div className="about-container">
                     <TextCard title={aboutUsTitle} text={aboutUs} />
                 </div>
                 <div className="row g-0">
-                    <div className="col mision-container">
+                    <div className="col-lg mision-container">
                         <TextCard title={misionTitle} text={mision} />
                     </div>
-                    <div className="col vision-container">
+                    <div className="col-lg vision-container">
                         <TextCard title={visionTitle} text={vision} />
                     </div>
                 </div>

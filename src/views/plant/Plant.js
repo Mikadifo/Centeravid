@@ -5,7 +5,7 @@ import './Plant.css';
 
 const Plant = () => {
     return (
-        <>
+        <div data-testid="plant">
             <TopCard
                 title={'Instalación'}
                 subtitle={'Contamos con zonas multipropositos'}
@@ -16,13 +16,11 @@ const Plant = () => {
                         className="col p-0 justify-content-center d-flex"
                         key={plant.id}
                     >
-                        <div>
-                            <PlantCard img={plant.img} title={plant.title} />
-                        </div>
+                        <PlantCard plant={plant} />
                     </div>
                 ))}
             </div>
-        </>
+        </div>
     );
 };
 

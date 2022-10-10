@@ -11,7 +11,7 @@ const CallButton = ({ text, isEmail, testid }) => {
     };
 
     return (
-        <div className="call-button-container d-flex" data-testid={testid}>
+        <div className="call-button-container d-md-flex" data-testid={testid}>
             <h4 className="my-auto">{cardValue}</h4>
             <div className="my-auto">
                 <span onClick={copyText} data-testid="copy-button">

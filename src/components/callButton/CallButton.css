@@ -10,6 +10,7 @@
   font-size: var(--h4-tablet-size);
   line-height: var(--h4-tablet-height);
   margin: 0;
+  word-wrap: break-word;
 }
 
 .call-button-container div {
@@ -37,15 +38,17 @@
 
 @media (max-width: 767px) {
   .call-button-container div {
-    margin-left: 16px;
+    margin-left: 0;
+    border: none;
   }
+
   .call-button-container {
     padding: 8px 16px;
   }
 
   .call-button-container a,
   .call-button-container span {
-    margin-left: 8px;
+    margin: 0 8px;
   }
 }
 

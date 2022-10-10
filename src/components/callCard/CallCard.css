@@ -20,6 +20,10 @@
   .call-card-container {
     padding: 32px;
   }
+
+  .numbers-containers {
+    width: 100%;
+  }
 }
 
 @media (max-width: 1099px) {

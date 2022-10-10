@@ -12,7 +12,7 @@ const CallCard = () => {
             <div className="row g-4 g-xl-0">
                 {numbers.map((n) => (
                     <div className="col-12 col-xl-6" key={n.id}>
-                        <div className="d-inline-block">
+                        <div className="d-inline-block numbers-containers">
                             <CallButton text={n.number} testid={n.id} />
                         </div>
                     </div>
@@ -20,7 +20,7 @@ const CallCard = () => {
             </div>
             <div className="email-card-container">
                 <h3>¿Prefieres usar correo?</h3>
-                <div className="d-inline-block">
+                <div className="d-inline-block numbers-containers">
                     <CallButton
                         text="centeravid@hotmail.com"
                         isEmail={true}

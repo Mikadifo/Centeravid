@@ -3,6 +3,7 @@ import { MemoryRouter } from 'react-router-dom';
 import NavBar from './NavBar';
 
 beforeEach(() => {
+    window.scrollTo = jest.fn();
     render(
         <MemoryRouter>
             <NavBar />

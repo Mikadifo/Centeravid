@@ -5,6 +5,8 @@ import M_esteban from './../imgs/M_esteban.jpeg';
 import M_xavi from './../imgs/M_xavi.jpeg';
 import M_edwin from './../imgs/M_edwin.jpeg';
 import M_sady from './../imgs/M_sady.jpeg';
+import M_maria from './../imgs/M_maria.jpeg';
+import M_rosa from './../imgs/M_rosa.jpeg';
 
 const medicalBody = [
     {
@@ -39,7 +41,7 @@ const medicalBody = [
     },
     {
         id: 'M_Esteban',
-        name: 'Esteban Sarmiento',
+        name: 'Esteban García',
         role: 'Terapia Vivencial',
         img: M_esteban,
     },
@@ -48,6 +50,18 @@ const medicalBody = [
         name: 'Dra. Sady Tello',
         role: 'Psiquiatra',
         img: M_sady,
+    },
+    {
+        id: 'M_Maria',
+        name: 'Maria Segarra',
+        role: 'Auxiliar de enfermería',
+        img: M_maria,
+    },
+    {
+        id: 'M_Rosa',
+        name: 'Rosa Arias',
+        role: 'Área de cocina',
+        img: M_rosa,
     },
 ];
 

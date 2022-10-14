@@ -59,7 +59,16 @@ const Footer = () => {
                 </div>
             </div>
             <div className="foot-copy text-center">
-                © 2022 Centeravid. Todos los derechos reservados.
+                © 2022 Centeravid. Todos los derechos reservados. Desarrollado
+                por{' '}
+                <a
+                    href="https://mikadifo.com"
+                    target="_blank"
+                    rel="noreferrer"
+                    data-testid="dev-link"
+                >
+                    Mikadifo
+                </a>
             </div>
         </footer>
     );

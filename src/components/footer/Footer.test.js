@@ -19,6 +19,7 @@ test('footer render text and links', () => {
     const button = screen.getByTestId('contact-button');
     const faceLink = screen.getByTestId('facebook-link');
     const instaLink = screen.getByTestId('instagram-link');
+    const devLink = screen.getByTestId('dev-link');
     expect(footer).toBeInTheDocument();
     expect(button).toBeInTheDocument();
     expect(faceLink).toBeInTheDocument();
@@ -27,8 +28,12 @@ test('footer render text and links', () => {
     expect(footer).toHaveTextContent('Estamos aquí para ayudarte.');
     expect(footer).toHaveTextContent('Contactanos');
     expect(footer).toHaveTextContent(
-        '© 2022 Centeravid. Todos los derechos reservados.',
+        '© 2022 Centeravid. Todos los derechos reservados. Desarrollado por ',
     );
+    expect(devLink).toHaveTextContent('Mikadifo');
+    expect(devLink).toHaveAttribute('href', 'https://mikadifo.com');
+    expect(devLink).toHaveAttribute('target', '_blank');
+    expect(devLink).toHaveAttribute('rel', 'noreferrer');
     expect(button).toHaveAttribute('href', '/contacto');
     expect(faceLink).toHaveAttribute(
         'href',

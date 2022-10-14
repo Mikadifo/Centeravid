@@ -1,4 +1,4 @@
-<img width="200" alt="Screen Shot 2022-09-24 at 5 04 31 PM" src="https://user-images.githubusercontent.com/51935560/192118730-8a033692-0959-407e-9fd4-212e106e4294.png">
+<img width="1418" alt="Screen Shot 2022-10-14 at 2 07 55 PM" src="https://user-images.githubusercontent.com/51935560/195912865-3b03c599-81dd-484e-90d7-0879b35cbf31.png">
 
 # Centeravid
 

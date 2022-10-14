@@ -9,6 +9,7 @@
 .foot-info {
   background-color: var(--color-black-05);
   padding: 64px 128px;
+  border-bottom: 1px solid var(--color-black-25);
 }
 
 .foot-info h3 {
@@ -48,12 +49,25 @@
 }
 
 .foot-copy {
-  border-top: 1px solid var(--color-black-25);
   padding: 20px 0;
+  margin: 0 32px;
   color: var(--color-black-75);
   font-size: var(--h6-size);
   font-family: var(--h6-font-regular);
   line-height: var(--h6-height);
+}
+
+.foot-copy a {
+  text-decoration: none;
+  color: rgb(var(--color-black));
+}
+
+.foot-copy a:hover {
+  text-decoration: underline;
+}
+
+.foot-copy a:active {
+  opacity: 0.75;
 }
 
 @media (max-width: 768px) {

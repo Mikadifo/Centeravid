@@ -9,7 +9,7 @@ const MapCard = () => {
             <iframe
                 title="centeravid-map"
                 className="map-frame"
-                src="https://maps.google.com/maps?q=centeravid&t=&z=17&ie=UTF8&iwloc=&output=embed"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.629569892939!2d-79.04249688524321!3d-2.922399197871469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91cd228a942ced3b%3A0xb851bca52ad355db!2sCenteravid%20Centro%20Terap%C3%A9utico%20De%20Adicciones%20Amor%20Y%20Vida!5e0!3m2!1sen!2sus!4v1679696840144!5m2!1sen!2sus"
             ></iframe>
             <div className="my-auto">
                 <h4>Estamos ubicados en:</h4>

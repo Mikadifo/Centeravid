@@ -1,8 +1,8 @@
 import M_isa from './../imgs/M_isa.jpeg';
 import M_diana from './../imgs/M_diana.jpeg';
 import M_isma from './../imgs/M_isma.jpeg';
-import M_esteban from './../imgs/M_esteban.jpeg';
-import M_xavi from './../imgs/M_xavi.jpeg';
+import T_eduardo from './../imgs/T_eduardo.jpg';
+import M_fabricio from './../imgs/M_fabricio.jpg';
 import M_edwin from './../imgs/M_edwin.jpeg';
 import M_sady from './../imgs/M_sady.jpeg';
 import M_maria from './../imgs/M_maria.jpeg';
@@ -34,16 +34,16 @@ const medicalBody = [
         img: M_edwin,
     },
     {
-        id: 'M_Xavi',
-        name: 'Xavier Méndez',
+        id: 'M_Fabricio',
+        name: 'Fabricio Brito',
         role: 'Psicólogo Clínico',
-        img: M_xavi,
+        img: M_fabricio,
     },
     {
-        id: 'M_Esteban',
-        name: 'Esteban García',
-        role: 'Terapia Vivencial',
-        img: M_esteban,
+        id: 'M_Eduardo',
+        name: 'Eduardo Rivas',
+        role: 'Terapista Vivencial',
+        img: T_eduardo,
     },
     {
         id: 'M_Sady',
